@@ -1,0 +1,295 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Touristic Places</title>
+    <link href="bootstrap-4.6.2-dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="StyleSheet1.css" rel="stylesheet" />
+</head>
+<body>
+    <header>
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
+
+            <a class="navbar-brand" href="#">
+                <img src="Images/logo.png" width="70" height="70" class="d-inline-block " alt="Tourism Logo">
+                World Tourism
+            </a>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+
+                    <li class="nav-item active"><a class="nav-link font-weight-bold " href="Home.html">Home</a> </li>
+                    <li class="nav-item active"><a class="nav-link font-weight-bold" href="#">Touristic Places</a></li>
+                    <li class="nav-item active"><a class="nav-link font-weight-bold" href="Contact Us.html">Contact Us</a></li>
+                    <li class="nav-item active "><a class="nav-link font-weight-bold" href="Login.html">Login</a></li>
+
+
+
+                </ul>
+            </div>
+        </nav>
+
+    </header>
+    <main>
+
+
+        <div class="container" style="opacity: 0.9">
+            <video autoplay loop muted style="height:750px ;width:1090px;">
+                <source src="Videos/v1.mp4" type="video/mp4" />
+
+            </video>
+
+            <h1 class="test">Touristic Places</h1>
+            <h2 class ="test2 "id="user"></h2>
+        </div>
+
+
+
+        <div class="container">
+            <div class="row">
+
+                <div class="col-4">
+                    <div class="card" style="width: 20rem;">
+                        <img class="card-img-top" src="Images/petra.jpg" alt="Card" id="img1">
+                        <div class="card-body">
+                            <h5 class="card-title" onmouseover="Over()">Petra</h5>
+                            <p class="card-text"onclick="addTextSound1(this)">
+                                The city of Petra, capital of the Nabataean Arabs,
+                                is one of the most famous archaeological sites in the world, it is
+                                Located 240 km south of the capital Amman and 120 km north of the red sea town
+                                of Aqaba Petra the world wonder.
+                            </p>
+                            <a href="https://www.visitpetra.jo/Pages/viewpage.aspx?pageID=124" target="_blank" class="btn btn-warning  border-warning rounded-pill">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="card" style="width: 20rem;">
+                        <img class="card-img-top" src="Images/tra.jpg" alt="Card "id="img2">
+                        <div class="card-body">
+                            <h5 class="card-title"onmouseover="Over()">Trabzon</h5>
+                            <p class="card-text" onclick="addTextSound2(this)">
+                                Trabzon is an important historical and
+                                cultural center of Turkey with a population of over
+                                800,000 people. It is located in the Black Sea region, between the Caucasus and Iran.
+                                The climate is mild and there are only stony beaches here.
+
+                            </p>
+                            <a href="https://www.allaboutturkey.com/trabzon.html" target="_blank" class="btn btn-warning  border-warning rounded-pill">Read More</a>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="card" style="width:20rem;">
+                        <img class="card-img-top" src="Images/download.jpg" alt="Card"id="img3">
+                        <div class="card-body">
+                            <h5 class="card-title"onmouseover="Over()">Greece</h5>
+                            <p class="card-text" onclick="addTextSound3(this)">
+                                Greece has the longest coastline in Europe and is
+                                the southernmost country in Europe. The mainland has rugged mountains, forests
+                                , and lakes, but the country is well known for the thousands of islands dotting the blue
+                                Aegean Sea to the east.
+                            </p>
+                            <a href="https://kids.nationalgeographic.com/geography/countries/article/greece#:~:text=use%20is%20prohibited.-,Greece%20has%20the%20longest%20coastline%20in%20Europe%20and%20is%20the,Ionian%20Sea%20to%20the%20west." target="_blank" class="btn btn-warning  border-warning rounded-pill">Read More</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </main>
+
+
+
+
+    <div class="container-fluid ">
+
+        <footer class="text-center text-lg-start text-white"
+                style="background-color: #1fc8d3 " id="linklogo">
+
+            <div class="container-fluid p-4 pb-0">
+
+                <section class="">
+
+                    <div class="row">
+
+                        <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                            <h6 class="text-uppercase mb-4 font-weight-bold">
+                                World Tourism
+                            </h6>
+                            <p>
+                                We are a company that helps you choose the tourist destination at the lowest costs
+                            </p>
+                        </div>
+
+
+                        <hr class="w-100 clearfix d-md-none" />
+
+
+                        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+                            <h6 class="text-uppercase mb-4 font-weight-bold">Tourist destinations</h6>
+                            <p>
+                                <a class="text-white ">Italia</a>
+                            </p>
+                            <p>
+                                <a class="text-white">Jordan</a>
+                            </p>
+                            <p>
+                                <a class="text-white">Paris</a>
+                            </p>
+
+                        </div>
+
+
+                        <hr class="w-100 clearfix d-md-none" />
+
+
+                        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+                            <h6 class="text-uppercase mb-4 font-weight-bold">
+                                Useful links
+                            </h6>
+                            <p>
+                                <a class="text-white">Your Account</a>
+                            </p>
+                            <p>
+                                <a class="text-white">Booking</a>
+                            </p>
+
+                            <p>
+                                <a class="text-white">Help</a>
+                            </p>
+                        </div>
+
+                        <hr class="w-100 clearfix d-md-none" />
+
+                        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+                            <h6 class="text-uppercase mb-4 font-weight-bold">Contact</h6>
+                            <p><i class="fa fa-home mr-3"></i> Amman, JOR 10012</p>
+                            <p><i class="fa fa-envelope mr-3"></i> World-Tourism@gmail.com</p>
+                            <p><i class="fa fa-phone mr-3"></i> 0781228457</p>
+
+                        </div>
+
+                    </div>
+
+                </section>
+
+
+                <hr class="my-3">
+
+                <section class="p-3 pt-0">
+                    <div class="row d-flex align-items-center">
+
+                        <div class="col-md-7 col-lg-8 text-center text-md-start">
+
+                            <div class="p-3">
+                                &copy; 2022 :
+                                <a class="text-white" href="http://localhost:58860/Home.html">World Tourism</a>
+                                By Saja Hani Alkhateeb.
+                            </div>
+
+                        </div>
+
+                        <div class="col-md-5 col-lg-4 ml-lg-0 text-center text-md-end">
+
+                            <a class="btn btn-outline-light btn-floating m-1 text-white"
+                               role="button">
+                                <i class="fa fa-facebook-f"></i>
+                            </a>
+
+
+                            <a class="btn btn-outline-light btn-floating m-1 text-white"
+                               role="button">
+                                <i class="fa fa-twitter"></i>
+                            </a>
+
+
+                            <a class="btn btn-outline-light btn-floating m-1 text-white"
+                               role="button">
+                                <i class="fa fa-google"></i>
+                            </a>
+
+                            <a class="btn btn-outline-light btn-floating m-1 text-white  "
+                               role="button">
+                                <i class="fa fa-instagram"></i>
+                            </a>
+                        </div>
+
+                    </div>
+                </section>
+
+            </div>
+
+        </footer>
+
+    </div>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="bootstrap-4.6.2-dist/js/bootstrap.bundle.min.js"></script>
+   
+    <script>
+        function Over() {
+            let over1 = document.getElementsByClassName("card-title")[0];
+            over1.style.fontSize = "36px";
+
+            let over2 = document.getElementsByClassName("card-title")[1];
+            over2.style.fontSize = "36px";
+            let over3 = document.getElementsByClassName("card-title")[2];
+            over3.style.fontSize = "36px";
+
+        }
+       
+        function addTextSound1() {
+            let a = document.createTextNode("Petra was later annexed to the Roman Empire and continued to thrive until a large earthquake in 363 AD.");
+            let addtext = document.getElementsByClassName("card-text")[0].append(a);
+            let audio = new Audio('Audio/welcome-traveler-97167.mp3');
+            audio.play();
+        }
+        function addTextSound2() {
+
+            let b = document.createTextNode("When the Roman Empire was divided into two at the end of the 4th century.");
+            let addtext2 = document.getElementsByClassName("card-text")[1].append(b);
+            let audio = new Audio('Audio/welcome-traveler-97167.mp3');
+            audio.play();
+        }
+        function addTextSound3() {
+            let c = document.createTextNode(" the Mediterranean Sea to the south, and the Ionian Sea to the west.");
+            let addtext3 = document.getElementsByClassName("card-text")[2].append(c);
+            let audio = new Audio('Audio/welcome-traveler-97167.mp3');
+            audio.play();
+        }
+
+
+        function changeImg1() {
+            let imgs = document.getElementById("img1").src = "Images/check.jpg";
+        }
+        function changeImg2() {
+            let imgs2 = document.getElementById("img2").src = "Images/check.jpg";
+        }
+        function changeImg3() {
+
+        
+            let imgs3 = document.getElementById("img3").src = "Images/check.jpg";
+                
+        }
+        document.getElementById("img1").addEventListener("click", changeImg1);
+        document.getElementById("img2").addEventListener("click", changeImg2);
+        document.getElementById("img3").addEventListener("click", changeImg3);
+
+
+
+        const c = localStorage.getItem('username');
+        let msg = document.getElementById("user");
+        msg.innerHTML = "Welcome" + " " +c;
+
+
+    </script>
+   
+
+</body>
+</html>
